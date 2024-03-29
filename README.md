@@ -35,6 +35,7 @@
 
   <details><summary> 2.2 Data Sample - Log Data Path → s3://udacity-dend/log_data </summary>
   <p>
+    
   ```
   {
     "artist":null,
@@ -53,10 +54,11 @@
     "song":null,
     "status":200,
     "ts":1541105830796,
-    "userAgent":"\"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/36.0.1985.143 Safari\/537.36\"",
+    "userAgent":"\"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/36.0.1985.143   Safari\/537.36\"",
     "userId":"39"
-    }
+  }
   ```
+
   </p>
   </details> 
 
