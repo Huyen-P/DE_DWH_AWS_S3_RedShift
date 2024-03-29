@@ -1,4 +1,4 @@
-##<details><summary> 01-Topic Introduction </summary>
+<details><summary> 01-Topic Introduction </summary>
 <p>
   
 - A music streaming startup needs to scale up ****their user base and song database. To achieve this, they’re looking to migrate their processes and data onto the cloud. Their data  currently resides in AWS S3 bucket. This bucket contains two folders: one with JSON files recording user activity within the app, and another with JSON files containing metadata for all the songs available.
@@ -12,11 +12,19 @@
 
 <details><summary> 02 - Dataset Overview </summary>
 <p>
-  <details><summary> Data Sample - Song Data Path → s3://udacity-dend/song_data </summary>
+<details><summary> Data Sample - Song Data Path → s3://udacity-dend/song_data </summary>
 <p>
-  ```
+``` JASON
   {"num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null, "artist_location": "", "artist_name": "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1", "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}
+```
+</p>
+</details> 
 
+<details><summary> Data Sample - Log Data Path → s3://udacity-dend/log_data </summary>
+<p>
+  ``` JASON
+{"artist":null,"auth":"Logged In","firstName":"Walter","gender":"M","itemInSession":0,"lastName":"Frye","length":null,"level":"free","location":"San Francisco-Oakland-Hayward, CA","method":"GET","page":"Home","registration":1540919166796.0,"sessionId":38,"song":null,"status":200,"ts":1541105830796,"userAgent":"\"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/36.0.1985.143 Safari\/537.36\"","userId":"39"}
+```
 </p>
 </details> 
 
