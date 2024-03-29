@@ -273,8 +273,8 @@ REGION_NAME=
   
   </p>
   </details> 
-</p>
-</details> 
+  </p>
+  </details> 
 
 <details><summary> 05 - Results & Recommendations </summary>
 <p>
