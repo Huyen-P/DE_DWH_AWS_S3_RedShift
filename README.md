@@ -228,8 +228,10 @@
         </details> 
         
   </p>
-  </details> 
-
+  </details>
+  
+</p>
+</details> 
 
 
   <details><summary> 4.5 - Set up the main dwhhuyen.cfg </summary>
@@ -272,12 +274,6 @@ REGION_NAME=
   </p>
   </details> 
   
-</p>
-</details> 
-
-</p>
-</details> 
-
 </p>
 </details> 
 
