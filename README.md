@@ -283,7 +283,8 @@ REGION_NAME=
 <p>
   <details><summary> 5.1 - Results </summary>
   <p>
-  Number of rows in each table 
+- Number of rows in each table 
+
   ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/8370c5d4-7db4-46b9-85e8-09b681667d2d)
 
   </p>
