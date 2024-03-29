@@ -1,4 +1,4 @@
-<details><summary>**1 -Topic Introduction**</summary>
+<details><summary> **1-Topic Introduction** </summary>
 <p>
   
 - A music streaming startup needs to scale up ****their user base and song database. To achieve this, they’re looking to migrate their processes and data onto the cloud. Their data  currently resides in AWS S3 bucket. This bucket contains two folders: one with JSON files recording user activity within the app, and another with JSON files containing metadata for all the songs available.
