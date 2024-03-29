@@ -70,21 +70,27 @@
 
 <details><summary> 03 - Main Idea Development of the solution </summary>
 <p>
+  
   <details><summary> 3.1 - Schema Design for Song Play Analysis </summary>
   <p>
-  A Star Schema would be required for optimized queries on song play queries.
+    
+  - A Star Schema would be required for optimized queries on song play queries.
     <details><summary> Fact Table </summary>
     <p>
-    **songplays** - records in event data associated with song plays i.e. records with page NextSong songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
+      
+    - **songplays** - records in event data associated with song plays i.e. records with page NextSong songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
+    
     </p>
     </details> 
     
     <details><summary> Dimension Tables </summary>
     <p>
+      
     - **users** - users in the app user_id, first_name, last_name, gender, level
     - **songs**- songs in music database song_id, title, artist_id, year, duration
     - **artists** - artists in music database artist_id, name, location, lattitude, longitude
     - **time** - timestamps of records in songplays broken down into specific units start_time, hour, day, week, month, year, weekday
+      
     </p>
     </details> 
     
