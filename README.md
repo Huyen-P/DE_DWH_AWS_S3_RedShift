@@ -67,19 +67,37 @@
 ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/2452b202-19e6-4e44-94c3-1b90999d8a84)
     
 ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/a6ea0dbf-503a-42b6-9164-5b03a92a6ebb)
-
+    -   <details><summary> Steps </summary>
+  <p>
+  1. Write a SQL CREATE statement for each of these tables in sql_queries2.py
+  2. Complete the logic in create_tables.py to connect to the database and create these tables
+  3. Write SQL DROP statements to drop tables in the beginning of create_tables.py if the tables already exist. This way, you can run create_tables.py   whenever you want to reset your database and test your ETL pipeline.
+  4. Launch a redshift cluster and create an IAM role that has read access to S3.
+  5. Add redshift database and IAM role info to dwhhuyen.cfg.
+  6. Test by running create_tables.py and checking the table schemas in your redshift database.
+  </p>
+  </details> 
+  
   </p>
   </details> 
 
   <details><summary> 3.3 - Build ETL Pipeline </summary>
   <p>
-  
+  1. Implement the logic in etl.py to load data from S3 to staging tables on Redshift.
+  2. Implement the logic in etl.py to load data from staging tables to analytics tables on Redshift.
+  3. Test by running etl.py after running create_tables.py and running the analytic queries on your Redshift database to compare your results with the expected results.
+  4. Delete your redshift cluster when finished.
   </p>
   </details> 
 
   <details><summary> 3.4 - Tool Use</summary>
   <p>
-  
+  - AWS Redshift
+  - AWS VPC
+  - SQL 
+  - Python
+  - Anaconda Prompt
+  - Visual Studio Code
   </p>
   </details> 
 </p>
@@ -89,19 +107,25 @@
 <p>
   <details><summary> 4.1 - Configure aws (connect aws to local machine) </summary>
   <p>
-  
+  ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/162172c9-17c9-4f8b-aa22-e1b4b201f9e3)
+
   </p>
   </details> 
 
   <details><summary> 4.2 - Create IAM user role and attach needed permission policies  </summary>
   <p>
   
+    ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/e80ff46c-0580-4b2c-ad10-b9b8cb817cb3)
+
   </p>
   </details> 
 
   <details><summary> 4.3 - Create AWS Cluster </summary>
   <p>
-  
+  - Using Cloud Shell
+  ''' python
+  aws redshift create-cluster --node-type ra3.xplus --number-of-nodes 2 --master-username adminuser --master-user-password TopSecret1 --cluster-identifier mycluster
+  '''
   </p>
   </details> 
 
