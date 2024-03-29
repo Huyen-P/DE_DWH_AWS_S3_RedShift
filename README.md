@@ -100,21 +100,24 @@
   <details><summary> 3.2 - Create Table Schema </summary>
   <p>
 
-    - Instead of reading data directly from the s3 buckets into the final database, this project will make use of a staging table to act as an intermediary between the s3 bucket and the final database.
+- Instead of reading data directly from the s3 buckets into the final database, this project will make use of a staging table to act as an intermediary between the s3 bucket and the final database.
     
-    - There are two staging tables staging_events and the staging_songs tables. These tables are to temporally hold data from the S3 Bucket before being transformed and inserted into the primary use tables.
+- There are two staging tables staging_events and the staging_songs tables. These tables are to temporally hold data from the S3 Bucket before being transformed and inserted into the primary use tables.
 
 ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/2452b202-19e6-4e44-94c3-1b90999d8a84)
     
 ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/a6ea0dbf-503a-42b6-9164-5b03a92a6ebb)
-    -   <details><summary> Steps </summary>
+
+-   <details><summary> Steps </summary>
   <p>
+    
   1. Write a SQL CREATE statement for each of these tables in sql_queries2.py
   2. Complete the logic in create_tables.py to connect to the database and create these tables
   3. Write SQL DROP statements to drop tables in the beginning of create_tables.py if the tables already exist. This way, you can run create_tables.py   whenever you want to reset your database and test your ETL pipeline.
   4. Launch a redshift cluster and create an IAM role that has read access to S3.
   5. Add redshift database and IAM role info to dwhhuyen.cfg.
   6. Test by running create_tables.py and checking the table schemas in your redshift database.
+     
   </p>
   </details> 
   
