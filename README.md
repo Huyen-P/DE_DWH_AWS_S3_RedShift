@@ -1,4 +1,4 @@
-<details><summary> 01-Topic Introduction </summary>
+<details><summary> 01 - Topic Introduction </summary>
 <p>
   
 - A music streaming startup needs to scale up ****their user base and song database. To achieve this, they’re looking to migrate their processes and data onto the cloud. Their data  currently resides in AWS S3 bucket. This bucket contains two folders: one with JSON files recording user activity within the app, and another with JSON files containing metadata for all the songs available.
@@ -35,7 +35,22 @@
 <p>
   <details><summary> 3.1 - Schema Design for Song Play Analysis </summary>
   <p>
-  
+  A Star Schema would be required for optimized queries on song play queries.
+    <details><summary> Fact Table </summary>
+    <p>
+    **songplays** - records in event data associated with song plays i.e. records with page NextSong songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
+    </p>
+    </details> 
+    
+    <details><summary> Dimension Tables </summary>
+    <p>
+    - **users** - users in the app user_id, first_name, last_name, gender, level
+    - **songs**- songs in music database song_id, title, artist_id, year, duration
+    - **artists** - artists in music database artist_id, name, location, lattitude, longitude
+    - **time** - timestamps of records in songplays broken down into specific units start_time, hour, day, week, month, year, weekday
+    </p>
+    </details> 
+    
   </p>
   </details> 
 
