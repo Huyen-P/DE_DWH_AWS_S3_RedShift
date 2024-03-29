@@ -181,47 +181,40 @@
   <details><summary> 4.4 - Authorize Security Access Group to Default TCP/IP Address - AWS VPC configuration</summary>
   <p>
 
-    <details><summary> VPC Review </summary>
-    <p>
+  <details><summary> VPC Review </summary>
+  <p>
 
-![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/13376c98-736c-448d-a6c0-5407acdb83ac)
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/f050f22c-309a-4033-a6ca-ce25df236214)
 
-
-![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/09e88f12-94d4-4b18-a60d-eb175589fb2f)
-
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/81183099-9ad5-4a96-a3db-90264f23d020)
 
 ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/6e279dbd-6bfc-4af8-a064-a0c7095724fd)
 
-
-
-    </p>
-    </details> 
+  </p>
+  </details> 
     
-    <details><summary> Internet Gateway - Being attached to VPC </summary>
-    <p>
+  <details><summary> Internet Gateway - Being attached to VPC </summary>
+  <p>
 
 ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/d0d02704-dbc0-4744-8c8a-9f3c1097f18c)
 
+  </p>
+  </details> 
 
-    </p>
-    </details> 
-
-        <details><summary> Route Tables </summary>
-    <p>
+  <details><summary> Route Tables </summary>
+  <p>
 
 ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/6f141629-8fd8-40a6-931a-cf3f16df91b4)
 
+  </p>
+  </details> 
 
-    </p>
-    </details> 
-
-    <details><summary> Security Group </summary>
-    <p>
+  <details><summary> Security Group </summary>
+  <p>
         <details><summary> outbound rules </summary>
         <p>
 
 ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/70505a51-d6ab-4cc7-9794-4abef1115c2f)
-
 
         </p>
         </details> 
@@ -231,17 +224,20 @@
 
 ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/5e6f1f20-52ae-4f0a-87d2-5439ed150a90)
 
-
         </p>
         </details> 
     </p>
     </details> 
-  </p>
-  </details> 
+</p>
+</details> 
+
+</p>
+</details> 
 
   <details><summary> 4.5 - Set up the main dwhhuyen.cfg </summary>
   <p>
-    
+
+```
 [CLUSTER]
 HOST=
 DB_NAME=
@@ -261,6 +257,7 @@ SONG_DATA='s3://udacity-dend/song_data'
 KEY=
 SECRET=
 REGION_NAME=
+```
 
   </p>
   </details> 
