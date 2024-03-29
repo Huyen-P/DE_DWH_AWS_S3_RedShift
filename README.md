@@ -188,7 +188,8 @@
 
 ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/81183099-9ad5-4a96-a3db-90264f23d020)
 
-![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/6e279dbd-6bfc-4af8-a064-a0c7095724fd)
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/ddcd9dce-5e27-4e13-b5f7-0572282e71e1)
+
 
   </p>
   </details> 
