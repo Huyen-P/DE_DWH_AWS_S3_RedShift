@@ -126,21 +126,25 @@
 
   <details><summary> 3.3 - Build ETL Pipeline </summary>
   <p>
+    
   1. Implement the logic in etl.py to load data from S3 to staging tables on Redshift.
   2. Implement the logic in etl.py to load data from staging tables to analytics tables on Redshift.
   3. Test by running etl.py after running create_tables.py and running the analytic queries on your Redshift database to compare your results with the expected results.
   4. Delete your redshift cluster when finished.
+     
   </p>
   </details> 
 
   <details><summary> 3.4 - Tool Use</summary>
   <p>
+    
   - AWS Redshift
   - AWS VPC
   - SQL 
   - Python
   - Anaconda Prompt
   - Visual Studio Code
+    
   </p>
   </details> 
 </p>
@@ -150,6 +154,7 @@
 <p>
   <details><summary> 4.1 - Configure aws (connect aws to local machine) </summary>
   <p>
+    
   ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/162172c9-17c9-4f8b-aa22-e1b4b201f9e3)
 
   </p>
@@ -157,8 +162,8 @@
 
   <details><summary> 4.2 - Create IAM user role and attach needed permission policies  </summary>
   <p>
-  
-    ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/e80ff46c-0580-4b2c-ad10-b9b8cb817cb3)
+    
+  ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/e80ff46c-0580-4b2c-ad10-b9b8cb817cb3)
 
   </p>
   </details> 
@@ -166,7 +171,7 @@
   <details><summary> 4.3 - Create AWS Cluster </summary>
   <p>
     
-  - Using Cloud Shell
+  - **Using Cloud Shell**
   ```
   aws redshift create-cluster --node-type ra3.xplus --number-of-nodes 2 --master-username adminuser --master-user-password TopSecret1 --cluster-identifier mycluster
   ```
@@ -175,13 +180,88 @@
 
   <details><summary> 4.4 - Authorize Security Access Group to Default TCP/IP Address - AWS VPC configuration</summary>
   <p>
-  
+
+    <details><summary> VPC Review </summary>
+    <p>
+
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/13376c98-736c-448d-a6c0-5407acdb83ac)
+
+
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/09e88f12-94d4-4b18-a60d-eb175589fb2f)
+
+
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/6e279dbd-6bfc-4af8-a064-a0c7095724fd)
+
+
+
+    </p>
+    </details> 
+    
+    <details><summary> Internet Gateway - Being attached to VPC </summary>
+    <p>
+
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/d0d02704-dbc0-4744-8c8a-9f3c1097f18c)
+
+
+    </p>
+    </details> 
+
+        <details><summary> Route Tables </summary>
+    <p>
+
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/6f141629-8fd8-40a6-931a-cf3f16df91b4)
+
+
+    </p>
+    </details> 
+
+    <details><summary> Security Group </summary>
+    <p>
+        <details><summary> outbound rules </summary>
+        <p>
+
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/70505a51-d6ab-4cc7-9794-4abef1115c2f)
+
+
+        </p>
+        </details> 
+
+        <details><summary> inbound rules </summary>
+        <p>
+
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/5e6f1f20-52ae-4f0a-87d2-5439ed150a90)
+
+
+        </p>
+        </details> 
+    </p>
+    </details> 
   </p>
   </details> 
 
   <details><summary> 4.5 - Set up the main dwhhuyen.cfg </summary>
   <p>
-  
+    
+[CLUSTER]
+HOST=
+DB_NAME=
+DB_USER=
+DB_PASSWORD=
+DB_PORT=
+
+[IAM_ROLE]
+ARN='IAM Role arn'
+
+[S3]
+LOG_DATA='s3://udacity-dend/log_data'
+LOG_JSONPATH='s3://udacity-dend/log_json_path.json'
+SONG_DATA='s3://udacity-dend/song_data'
+
+[AWS]
+KEY=
+SECRET=
+REGION_NAME=
+
   </p>
   </details> 
 
@@ -203,7 +283,9 @@
 <p>
   <details><summary> 5.1 - Results </summary>
   <p>
-  
+  Number of rows in each table 
+  ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/8370c5d4-7db4-46b9-85e8-09b681667d2d)
+
   </p>
   </details> 
 
