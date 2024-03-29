@@ -285,7 +285,7 @@ REGION_NAME=
   <p>
 - Number of rows in each table 
 
-  ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/8370c5d4-7db4-46b9-85e8-09b681667d2d)
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/eca252ef-dac0-4086-ba3d-11ffc075b568)
 
   </p>
   </details> 
