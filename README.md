@@ -14,9 +14,19 @@
 <p>
   <details><summary> 2.1 Data Sample - Song Data Path → s3://udacity-dend/song_data </summary>
   <p>
+    
   ```
   {
-    "num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null, "artist_location": "", "artist_name": "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1",   "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0
+    "num_songs": 1, 
+    "artist_id": "ARJIE2Y1187B994AB7", 
+    "artist_latitude": null, 
+    "artist_longitude": null, 
+    "artist_location": "", 
+    "artist_name": "Line Renaud", 
+    "song_id": "SOUPIRU12A6D4FA1E1",   
+    "title": "Der Kleine Dompfaff", 
+    "duration": 152.92036, 
+    "year": 0
   }
   ```
 
@@ -25,9 +35,28 @@
 
   <details><summary> 2.2 Data Sample - Log Data Path → s3://udacity-dend/log_data </summary>
   <p>
-    
-{"artist":null,"auth":"Logged In","firstName":"Walter","gender":"M","itemInSession":0,"lastName":"Frye","length":null,"level":"free","location":"San Francisco-Oakland-Hayward, CA","method":"GET","page":"Home","registration":1540919166796.0,"sessionId":38,"song":null,"status":200,"ts":1541105830796,"userAgent":"\"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/36.0.1985.143 Safari\/537.36\"","userId":"39"}
-
+  ```
+  {
+    "artist":null,
+    "auth":"LoggedIn",
+    "firstName":"Walter",
+    "gender":"M",
+    "itemInSession":0,
+    "lastName":"Frye",
+    "length":null,
+    "level":"free",
+    "location":"San Francisco-Oakland-Hayward,CA",
+    "method":"GET",
+    "page":"Home",
+    "registration":1540919166796.0,
+    "sessionId":38,
+    "song":null,
+    "status":200,
+    "ts":1541105830796,
+    "userAgent":"\"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/36.0.1985.143 Safari\/537.36\"",
+    "userId":"39"
+    }
+  ```
   </p>
   </details> 
 
