@@ -80,15 +80,15 @@
     
 ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/a6ea0dbf-503a-42b6-9164-5b03a92a6ebb)
 
-    <details><summary> Fact Table </summary>
+<details><summary> Fact Table </summary>
     <p>
       
     - **songplays** - records in event data associated with song plays i.e. records with page NextSong songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
     
     </p>
-    </details> 
+</details> 
     
-    <details><summary> Dimension Tables </summary>
+<details><summary> Dimension Tables </summary>
     <p>
       
     - **users** - users in the app user_id, first_name, last_name, gender, level
@@ -97,10 +97,10 @@
     - **time** - timestamps of records in songplays broken down into specific units start_time, hour, day, week, month, year, weekday
       
     </p>
-    </details> 
+</details> 
     
-  </p>
-  </details> 
+</p>
+</details> 
 
   <details><summary> 3.2 - Create Table Schema </summary>
   <p>
