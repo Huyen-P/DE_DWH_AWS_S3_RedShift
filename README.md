@@ -292,6 +292,9 @@ REGION_NAME=
 
 ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/eca252ef-dac0-4086-ba3d-11ffc075b568)
 
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/b73147e6-2093-438f-8890-111f34afff9e)
+
+
   </p>
   </details> 
 
