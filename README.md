@@ -155,7 +155,8 @@
   <details><summary> 4.1 - Configure aws (connect aws to local machine) </summary>
   <p>
     
-  ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/162172c9-17c9-4f8b-aa22-e1b4b201f9e3)
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/d567d250-9fe1-40ca-b726-ff9fa6d77780)
+
 
   </p>
   </details> 
