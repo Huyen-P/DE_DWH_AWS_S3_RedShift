@@ -75,6 +75,15 @@
   <p>
     
   - A Star Schema would be required for optimized queries on song play queries.
+<<<<<<< HEAD
+=======
+
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/2452b202-19e6-4e44-94c3-1b90999d8a84)
+    
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/a6ea0dbf-503a-42b6-9164-5b03a92a6ebb)
+
+
+>>>>>>> 10142c3f97e43d3136f5e5e2ce5a97ff49796fc9
     <details><summary> Fact Table </summary>
     <p>
       
@@ -104,10 +113,13 @@
     
 - There are two staging tables staging_events and the staging_songs tables. These tables are to temporally hold data from the S3 Bucket before being transformed and inserted into the primary use tables.
 
+<<<<<<< HEAD
 ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/2452b202-19e6-4e44-94c3-1b90999d8a84)
     
 ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/a6ea0dbf-503a-42b6-9164-5b03a92a6ebb)
 
+=======
+>>>>>>> 10142c3f97e43d3136f5e5e2ce5a97ff49796fc9
 <details><summary> Steps </summary>
   <p>
     
@@ -292,6 +304,12 @@ REGION_NAME=
 
 ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/eca252ef-dac0-4086-ba3d-11ffc075b568)
 
+<<<<<<< HEAD
+=======
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/b73147e6-2093-438f-8890-111f34afff9e)
+
+
+>>>>>>> 10142c3f97e43d3136f5e5e2ce5a97ff49796fc9
   </p>
   </details> 
 
