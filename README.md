@@ -165,10 +165,11 @@
 
   <details><summary> 4.3 - Create AWS Cluster </summary>
   <p>
+    
   - Using Cloud Shell
-  ''' python
+  ```
   aws redshift create-cluster --node-type ra3.xplus --number-of-nodes 2 --master-username adminuser --master-user-password TopSecret1 --cluster-identifier mycluster
-  '''
+  ```
   </p>
   </details> 
 
