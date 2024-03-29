@@ -25,5 +25,98 @@
 {"artist":null,"auth":"Logged In","firstName":"Walter","gender":"M","itemInSession":0,"lastName":"Frye","length":null,"level":"free","location":"San Francisco-Oakland-Hayward, CA","method":"GET","page":"Home","registration":1540919166796.0,"sessionId":38,"song":null,"status":200,"ts":1541105830796,"userAgent":"\"Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/36.0.1985.143 Safari\/537.36\"","userId":"39"}
   </p>
   </details> 
+
+  <details><summary> Log Data JSON Path → s3://udacity-dend/log_jason_path.json</summary>
+  </details> 
+</p>
+</details> 
+
+<details><summary> 03 - Main Idea Development of the solution </summary>
+<p>
+  <details><summary> 3.1 - Schema Design for Song Play Analysis </summary>
+  <p>
+  
+  </p>
+  </details> 
+
+  <details><summary> 3.2 - Create Table Schema </summary>
+  <p>
+  
+  </p>
+  </details> 
+
+  <details><summary> 3.3 - Build ETL Pipeline </summary>
+  <p>
+  
+  </p>
+  </details> 
+
+  <details><summary> 3.4 - Tool Use</summary>
+  <p>
+  
+  </p>
+  </details> 
+</p>
+</details> 
+
+<details><summary> 04 - Processing Steps </summary>
+<p>
+  <details><summary> 4.1 - Configure aws (connect aws to local machine) </summary>
+  <p>
+  
+  </p>
+  </details> 
+
+  <details><summary> 4.2 - Create IAM user role and attach needed permission policies  </summary>
+  <p>
+  
+  </p>
+  </details> 
+
+  <details><summary> 4.3 - Create AWS Cluster </summary>
+  <p>
+  
+  </p>
+  </details> 
+
+  <details><summary> 4.4 - Authorize Security Access Group to Default TCP/IP Address - AWS VPC configuration</summary>
+  <p>
+  
+  </p>
+  </details> 
+
+  <details><summary> 4.5 - Set up the main dwhhuyen.cfg </summary>
+  <p>
+  
+  </p>
+  </details> 
+
+  <details><summary> 4.6 - Run the create_table script to set up the database staging and analytical tables </summary>
+  <p>
+  
+  </p>
+  </details> 
+
+  <details><summary> 4.7 - Run the etl.py script to extract data from the files in S3, stage it in redshift, and finally store it in the dimensional tables. </summary>
+  <p>
+  
+  </p>
+  </details> 
+
+
+<details><summary> 05 - Results & Recommendations </summary>
+<p>
+  <details><summary> 5.1 - Results </summary>
+  <p>
+  
+  </p>
+  </details> 
+
+  <details><summary> 5.2 - Recommendations </summary>
+  <p>
+  
+  </p>
+  </details> 
+
 </p>
 </details> 
