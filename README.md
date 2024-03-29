@@ -272,8 +272,7 @@ REGION_NAME=
   
   </p>
   </details> 
-  </p>
-  </details> 
+  
 </p>
 </details> 
 
