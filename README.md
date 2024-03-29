@@ -266,7 +266,9 @@ REGION_NAME=
 
   <details><summary> 4.6 - Run the create_table script to set up the database staging and analytical tables </summary>
   <p>
-  
+    
+  ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/3de7dedb-4d48-44b4-af67-355003ea99e4)
+
   </p>
   </details> 
 
