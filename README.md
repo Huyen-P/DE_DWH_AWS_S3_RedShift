@@ -1,8 +1,13 @@
-<b>Introduction</b>
+**1 -Topic Introduction**
+<details><summary>Details</summary>
+<p>
+  
+- A music streaming startup needs to scale up ****their user base and song database. To achieve this, they’re looking to migrate their processes and data onto the cloud. Their data  currently resides in AWS S3 bucket. This bucket contains two folders: one with JSON files recording user activity within the app, and another with JSON files containing metadata for all the songs available.
+- Task is to build an ETL Pipeline that extracts their data from S3, staging it in Amazon Redshift and then transforming data into a set of Dimensional and Fact Tables for their Analytics Team to continue finding insights to what songs their users are listening to.
+https://www.notion.so/CS-DE-Final-Project-067bd9c03bcf4e55b3165fdc1d823807?pvs=4#c00f21c39c2c427cadd5805c733f50af
 
-A music streaming startup, Sparkify, has grown their user base and song database and want to move their processes and data onto the cloud. Their data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
-
-Task is to build an ETL Pipeline that extracts their data from S3, staging it in Redshift and then transforming data into a set of Dimensional and Fact Tables for their Analytics Team to continue finding Insights to what songs their users are listening to.
+</p>
+</details> 
 
 <b>Project Description</b>
 
