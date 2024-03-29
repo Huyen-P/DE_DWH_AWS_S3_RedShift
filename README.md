@@ -211,25 +211,19 @@
 
   <details><summary> Security Group </summary>
   <p>
-        <details><summary> outbound rules </summary>
-        <p>
+  <details><summary> outbound rules </summary>
+  <p>
 
   ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/70505a51-d6ab-4cc7-9794-4abef1115c2f)
 
-        </p>
-        </details> 
-        </p>
-        </details>
+  </p>
+  </details> 
 
-        <details><summary> inbound rules </summary>
-        <p>
+  <details><summary> inbound rules </summary>
+  <p>
 
 ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/5e6f1f20-52ae-4f0a-87d2-5439ed150a90)
 
-        </p>
-        </details> 
-        
-        
   </p>
   </details>
   
