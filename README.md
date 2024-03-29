@@ -108,7 +108,7 @@
     
 ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/a6ea0dbf-503a-42b6-9164-5b03a92a6ebb)
 
--   <details><summary> Steps </summary>
+<details><summary> Steps </summary>
   <p>
     
   1. Write a SQL CREATE statement for each of these tables in sql_queries2.py
