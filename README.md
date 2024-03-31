@@ -291,19 +291,77 @@ REGION_NAME=
 <p>
   <details><summary> 5.1 - Results </summary>
   <p>
+    
 - Number of rows in each table 
 
 ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/eca252ef-dac0-4086-ba3d-11ffc075b568)
 
 ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/b73147e6-2093-438f-8890-111f34afff9e)
 
+<details><summary> Table artist </summary>
+<p>
+  
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/7be35793-0d01-4b2e-a86e-8059d04de48d)
+
+</p>
+</details> 
+
+<details><summary> Table songplays </summary>
+<p>
+
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/88b16412-4afd-4d13-9b6d-7df88e697760)
+
+</p>
+</details> 
+
+<details><summary> Table songs </summary>
+<p>
+
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/f40fcc36-4293-48a4-b1ca-4c6fd1036369)
+
+</p>
+</details> 
+
+<details><summary> Table staging_events </summary>
+<p>
+
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/441fd565-0421-46f9-9834-2bb6c96e85fe)
+
+</p>
+</details> 
+
+<details><summary> Table staging_songs </summary>
+<p>
+
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/56e3eac6-0a58-4838-b3be-282a8bd45099)
+
+</p>
+</details> 
+
+<details><summary> Table time </summary>
+<p>
+
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/6fc3e5a7-9f88-4038-bfa9-e64cd5b6b9bd)
+
+</p>
+</details> 
+
+<details><summary> Table user </summary>
+<p>
+
+![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/a9a9ab4e-2b42-48e9-bce8-874e6bc5bb79)
+
+</p>
+</details> 
 
   </p>
   </details> 
 
   <details><summary> 5.2 - Recommendations </summary>
   <p>
+    
 - Try it with Snowflake Schema Design ( normalization to reduce data redundancy and improve query performance.)
+  
   </p>
   </details> 
 
