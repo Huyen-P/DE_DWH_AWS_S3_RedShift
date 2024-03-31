@@ -281,7 +281,7 @@ REGION_NAME=
   </p>
   </details> 
 
-    <details><summary> 4.8 - Clean up  resources </summary>
+  <details><summary> 4.8 - Clean up  resources </summary>
   <p>
     
 ```
