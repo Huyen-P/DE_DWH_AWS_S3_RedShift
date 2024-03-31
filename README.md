@@ -280,6 +280,22 @@ REGION_NAME=
 
   </p>
   </details> 
+
+    <details><summary> 4.8 - Clean up  resources </summary>
+  <p>
+    
+```
+redshift.delete_cluster( ClusterIdentifier=DWH_CLUSTER_IDENTIFIER,  SkipFinalClusterSnapshot=True)
+
+myClusterProps = redshift.describe_clusters(ClusterIdentifier=DWH_CLUSTER_IDENTIFIER)['Clusters'][0]
+prettyRedshiftProps(myClusterProps)
+
+iam.detach_role_policy(RoleName=DWH_IAM_ROLE_NAME, PolicyArn="arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess")
+iam.delete_role(RoleName=DWH_IAM_ROLE_NAME)
+```
+
+  </p>
+  </details> 
   
 </p>
 </details> 
