@@ -377,6 +377,7 @@ iam.delete_role(RoleName=DWH_IAM_ROLE_NAME)
   <p>
     
 - Try it with Snowflake Schema Design ( normalization to reduce data redundancy and improve query performance.)
+- Try it with AWS Glue.
   
   </p>
   </details> 
