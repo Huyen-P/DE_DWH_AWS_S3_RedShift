@@ -74,7 +74,7 @@
   <details><summary> 3.1 - Schema Design for Song Play Analysis </summary>
   <p>
     
-  - A Star Schema would be required for optimized queries on song play queries.
+  - A Star Schema Design (denormalizes data by eliminating redundant tables, simplicity, efficiency, and improved query performance) would be chosen for optimized queries on song play queries.
     
 ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/a6ea0dbf-503a-42b6-9164-5b03a92a6ebb)
 
@@ -301,7 +301,7 @@ REGION_NAME=
 
   <details><summary> 5.2 - Recommendations </summary>
   <p>
-  
+- Try it with Snowflake Schema Design ( normalization to reduce data redundancy and improve query performance.)
   </p>
   </details> 
 
