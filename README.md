@@ -275,7 +275,9 @@ REGION_NAME=
 
   <details><summary> 4.7 - Run the etl.py script to extract data from the files in S3, stage it in redshift, and finally store it in the dimensional tables. </summary>
   <p>
-  
+    
+  ![image](https://github.com/Huyen-P/DE_DWH_AWS_S3_RedShift/assets/72473316/18a69fe7-e099-404c-8bc8-e90d867fd092)
+
   </p>
   </details> 
   
